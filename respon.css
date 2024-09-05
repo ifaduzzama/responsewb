@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1180px){
+    .my-text{
+        height: auto;
+    }
+
+    .wiat-box1{
+        height: auto;
+    }
+
+    .wiat-box2{
+        height: auto;
+    }
+}
+
+@media (max-width:761px) {
+    body{
+        
+    }
+
+    header{
+        width: auto;
+    }
+    .skill{
+        width: auto;
+    }
+
+    nav{}
+
+    .logo{}
+
+    nav ul li{
+        display: block;
+    }
+
+    .my-text{
+        height: auto;
+    }
+
+    .wiat-box1{
+        height: auto;
+    }
+
+    .wiat-box2{
+        height: auto;
+    }
+}
+@media (max-width: 460px) {
+section{
+    display: ;   
+}
+}

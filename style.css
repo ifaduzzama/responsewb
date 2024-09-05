@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{}
+
+header{
+   background-color:#d5d5d5;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+   padding-top: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+height:30px;
+width: 30px;
+}
+.logo h5{
+    color: rgb(166, 58, 58);
+    margin: 5px;
+}
+.logo p{
+    color: black;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    height: 27px;
+    width: 50px;
+    color: white;
+    background-color: rgb(194, 40, 40);
+    border: none;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    
+}
+.section-text{
+margin-right: 20px;
+}
+.section-text h6{
+    color: rgb(124, 115, 115);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.section-text h1{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.section-text p{
+    margin-bottom: 30px;
+}
+.section-text button{
+height: 40px;
+width: 150px;
+margin: 5px;
+background-color: red;
+color: white;
+}
+.section-img img{
+ height: 600px;
+ width: 400px;
+ /* padding-top:  100px; */
+}
+.section-icon{
+ margin-top: 200px;
+ /* margin-left: 20px; */
+}
+.se-text{
+    color: red;
+    margin-left: 10px;
+}
+.section-icon i{
+    margin: 10px;
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    color: black;
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 21, 22);
+}
+
+.next{
+   display: flex; 
+   align-items: center;
+   justify-content:center;
+   }
+.next-img img{
+ margin-right: 30px;
+}
+.next-text h3{
+font-size: 30px;
+}
+.next-text p{
+    font-size: 13px;
+}
+.next-button{
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 0px;
+    margin-top: 30px;
+       
+}
+.next-button button{
+    color: white; 
+    padding: 5px;
+    height: 30px;
+    background-color: brown;
+    border: none;
+ }
+
+.next-di{
+   margin-left: 10px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.skill{
+ display: flex;
+ justify-content: center;
+ padding:20px;
+ margin-top: 50px;
+ background-color: rgb(232, 227, 219);
+ 
+}
+.skill-text{
+ text-align: center;
+ margin: 20px
+}
+.educa{
+margin-right: 40px;
+}
+.educa span{
+ color: red;
+}
+.educa-text{
+    height: 70px;
+    width: 200px;
+    height: 90px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+.educa-text p{
+    color: red;
+}
+
+.exp h4{
+padding-left: 10px;
+}
+.exp i{
+    font-size: 20px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(184, 60, 15);
+}
+
+.exp span{
+    color: red;
+}
+.exp-text{
+ width: 200px;
+ padding: 10px;
+ margin-top: 20px;
+ background-color: white;
+}
+.exp-text p{
+    color: red;
+}
+.my{
+    margin-left: 40px;
+}
+
+.my span{
+    color: red;
+}
+
+.my-text{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    height: 300px;
+    color: black;
+    background-color: white;
+    
+}
+
+.what{
+    /* border: 1px solid black; */
+}
+
+.what-text{
+    text-align: center;
+    margin-top: 50px;
+}
+.what-text h1{
+ font-size: 50px;   
+}
+
+.what-box{
+    display: flex;
+    justify-content:center;
+}
+
+.wiat-box1{
+   width: 200px;
+   margin: 20px;
+   margin-top: 30px;
+   border-top-right-radius: 30px;
+   height: 270px;
+   padding-left: 7px;
+   background-color: wheat;
+}
+/* ------------- */
+.wiat-box1 i{
+   font-size: 40px;
+   border: 1px solid black;
+   height: 60px;
+   width: 80px;
+   text-align: center;
+   padding-top: 5px;
+   background-color: rgb(184, 60, 15);
+}
+/* ---------------- */
+
+.wiat-box1 h3{
+font-size: 20px;
+}
+.wiat-box1 span{
+    color: red;
+}
+
+.widt-sit{
+    display: flex;
+    justify-content: center;
+}
+
+.wiat-box2{
+    width: 200px;
+    height: 270px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+    padding-left: 7px;
+    background-color: wheat;
+}
+.wiat-box2 i{
+    font-size: 40px;
+   border: 1px solid black;
+   height: 60px;
+   width: 80px;
+   text-align: center;
+   padding-top: 5px;
+   background-color: rgb(184, 60, 15);
+}
+.wiat-box2 span{
+    color: red;
+}
+
+.what-text-but{
+  text-align: center;
+   
+}
+.what-text-but button{
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: brown;
+    border: none;
+    margin-top: 20px;
+}
+
+.port{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.port-text{
+
+}
+.port-text h3{
+ font-size: 30px;
+}
+
+.all-nav{
+margin-left: 20px;
+margin-top: 30px;
+}
+
+.all-nav1{
+    
+}
+
+.all-nav li{
+list-style: none;
+border: 1px solid rgb(171, 32, 32);
+width: 100px;
+height: 40px;
+text-align: center;
+padding: 10px;
+display: inline-block;
+
+}
+.all-nav a{
+    color: black;
+    text-decoration: none;
+}
+
